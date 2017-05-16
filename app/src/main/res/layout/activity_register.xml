@@ -65,7 +65,7 @@
                     android:src="@mipmap/ic_user" />
 
                 <EditText
-
+                    android:inputType="text"
                     android:id="@+id/ediName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -83,6 +83,7 @@
                     android:src="@mipmap/ic_user" />
 
                 <EditText
+                    android:inputType="text"
                     android:id="@+id/editUser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -100,6 +101,7 @@
                     android:src="@mipmap/ic_user" />
 
                 <EditText
+                    android:inputType="text"
                     android:id="@id/edtPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
