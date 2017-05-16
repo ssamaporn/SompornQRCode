@@ -2,4 +2,15 @@
     <string name="app_name">Somporn QR Code</string>
     <string name="login">Login</string>
     <string name="password">Password :</string>
+    <string name="new_register">New Register</string>
+    <string name="name">name</string>
+    <string name="user">user</string>
+
+    <string name="title_HaveSpace">มีช่องว่าง</string>
+    <string name="message_HaveSpace">กรุณากรอกทุกช่อง</string>
+    <string name="title_UserFalse">User false</string>
+    <string name="message_UserFalse">No user in data base</string>
+    <string name="tiltle_Password_fasle">password false</string>
+    <string name="message_Passwordfalse">Please Try Again Password Fasle</string>
+
 </resources>
