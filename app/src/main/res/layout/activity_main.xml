@@ -41,6 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <EditText
+                android:id="@+id/editUser"
                 android:inputType="text"
                 android:hint="User:"
                 android:layout_width="match_parent"
@@ -59,6 +60,7 @@
                 android:src="@mipmap/ic_password" />
 
             <EditText
+                android:id="@+id/edtPassword"
                 android:textColor="@color/colorPrimaryDark"
                 android:inputType="textPassword"
                 android:hint="@string/password"
@@ -68,6 +70,8 @@
         </LinearLayout>
 
 <TextView
+    android:clickable="true"
+    android:id="@+id/txtNewRegis"
     android:textColor="@color/colorPrimaryDark"
     android:text="New Register"
     android:layout_width="wrap_content"
@@ -80,6 +84,7 @@
 
 
    <Button
+       android:id="@+id/btnLogin"
        android:layout_alignParentBottom="true"
        android:text="@string/login"
        android:layout_width="match_parent"
