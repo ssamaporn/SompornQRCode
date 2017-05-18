@@ -9,6 +9,11 @@ public class MyContant {
     //Explicit
     private String urlPostUser = "http://androidthai.in.th/fetl/addUserMaster.php";
     private String urlGetUser = "http://androidthai.in.th/fetl/getUserMaster.php";
+    private String urlGetProduct = "http://androidthai.in.th/fetl/getProduct.php";
+
+    public String getUrlGetProduct() {
+        return urlGetProduct;
+    }
 
     public String getUrlGetUser() {
         return urlGetUser;

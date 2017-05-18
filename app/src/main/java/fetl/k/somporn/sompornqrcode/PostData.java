@@ -37,7 +37,7 @@ public class PostData extends AsyncTask<String,Void, String>{
                     .add("Password", params[2])
                     .build();
 
-            MyConstatnt myConstatnt = new MyConstatnt();
+            MyContant myConstatnt = new MyContant();
             String urlPHP = myConstatnt.getUrlPostUser();
 
             Request.Builder builder = new Request.Builder();
