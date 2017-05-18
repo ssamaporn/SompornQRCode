@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         try {
 
             GetData getData = new GetData(this);
-            MyConstatnt myConstant = new MyConstatnt();
+            MyContant myConstant = new MyContant();
             getData.execute(myConstant.getUrlGetUser());
             String strJSCN = getData.get();
             Log.d("17MayV2", "JSCN ==> " + strJSCN);
